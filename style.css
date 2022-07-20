@@ -113,22 +113,25 @@ header{
     width: 312px;
     background-color: #F6F6F6;
     border-radius: 10px;
- }
+  }
  .blogs-info{
     margin: 20px;
- }
+  }
  .blogs-info button{
     padding: 4px 16px;
     border-radius: 5px;
     margin-bottom: 15px;
+    margin-right: 192px;
  }
  .blogs-info p{
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 20px;
+    text-align: left;
  }
  .player-time{
     display: flex;
+    text-align: left;
  }
  .player-time div{
     margin-right: 20px;
