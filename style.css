@@ -114,9 +114,6 @@ header{
     background-color: #F6F6F6;
     border-radius: 10px;
  }
- .player-img{
-
- }
  .blogs-info{
     margin: 20px;
  }
@@ -136,7 +133,61 @@ header{
  .player-time div{
     margin-right: 20px;
  }
- /* footer styles starts here */
+ /* styles for upcoming match starts here */
+ #upcoming-match{
+    background-color: #DD0000;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+ }
+ #match-blog{
+    margin-bottom: 30px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+ }
+ #flags-main{
+    width: 312px;
+    height: 242px;
+ }
+ .flag-container{
+    margin: 53px 30px;
+ }
+.flag-img{
+    display: flex;
+}
+.garmany{
+
+}
+.garmany img{
+    width: 93px;
+}
+.versus{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+.france{
+
+}
+.france img{
+    width: 93px;
+}
+.blogs-info{
+    text-align: center;
+    margin-top: 20px;
+ }
+ .match-date{
+    margin-top: 20px;
+    margin-bottom: 53px;
+ }
+
+
+ /* styles for upcoming match ends here */
+  /* footer styles starts here */
  footer{
      text-align: center;
      background-color: black;
