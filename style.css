@@ -274,9 +274,17 @@ footer hr{
      font-size: 22px;
    }
    .header-pera{
-     width: 258px;
+     width: 100px;
+     border: 1px solid white;
+     overflow: hidden;
      margin-left: 15px;
      text-align: center;
+   }
+
+   .elips{
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
    }
    .header-btn button{
       padding: 8px 12px;
