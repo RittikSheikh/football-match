@@ -3,27 +3,18 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #EEEEEE;
  }
+/* header styles start here */
 
- /* Responsive media screen styles starts here */
-/* for mobile */
-@media only screen and (max-width: 600px) {
-   
- }
-
-/* for mobile */
-  /* Responsive media screen styles ends here */
 header{
    display: flex;
    justify-content: center;
    margin-bottom: 139px;
-    color: white;
+   color: white;
 }
 .header-container{
    display: flex;
    border-radius: 30px;
    background-color:  #161616;
-   width: 1321px;
-   height: 660px;
  }
 .header-des{
    width: 531px;
@@ -238,3 +229,60 @@ header{
     font-size: 35px;
     color: white;
  }
+ .view-all{
+   margin-bottom: 20px;
+ }
+ .view-all button{
+   display: none;
+   padding: 16px 25px;
+    background-color: #DD0000;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+ }
+ /* footer ends here */
+ /* Midea Querry  */
+/* for mobile */
+@media only screen and (max-width: 688px) {
+   header{
+     flex-direction: column;
+   }
+   .header-container{
+     flex-direction: column;
+   }
+   .header-des{
+     width: 100%;
+     margin-left: 38px;
+     margin-right: 38px;
+   }
+   .header-title{
+     line-height: 30px;
+     width: 228px;
+     text-align: center;
+     margin-left: 30px;
+   }
+   .header-title h1{
+     font-size: 22px;
+   }
+   .header-pera{
+     width: 258px;
+     margin-left: 15px;
+     text-align: center;
+   }
+   .header-btn button{
+      padding: 8px 12px;
+      margin-left: 78px;
+   }
+   .header-banner{
+     width: 100%;
+     margin-right: 38px;
+     margin-left: 63px;
+   }
+   .header-banner img{
+      width: 233px;
+   }
+}
+/* for mobile */

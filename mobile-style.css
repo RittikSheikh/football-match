@@ -1,0 +1,150 @@
+@media screen and (max-width: 600px) {
+    header{
+        flex-direction: column;
+}
+.header-container{
+    flex-direction: column;
+   }
+.header-des{
+  
+}
+.header-title{
+   
+}
+.header-title h1{
+  
+}
+.header-pera{
+  
+ }
+.header-btn{
+
+}
+.header-btn button{
+   
+}
+.header-banner{
+  
+}
+.header-banner img{
+ 
+}
+ /* header styles ends here */
+ /* main blogs start here */
+ 
+ #main-blogs{
+    
+ }
+ .all-cards{
+    
+  }
+ .side-menu-card{
+   
+ }
+ .menu-buttons{
+   
+ }
+ .match{
+    
+ }
+ .group{
+   
+ }
+ .blog{
+   
+ }
+  .menu-buttons button a{
+    
+ }
+ .menu-buttons button{
+    
+   
+   }
+ .blogs{
+    
+ }
+ article{
+    
+ .blogs-info{
+   
+  }
+ .blogs-info button{
+    
+ }
+ .blogs-info p{
+    
+ }
+ .player-time{
+   
+ }
+ .player-time div{
+   
+ }
+ /* styles for upcoming match starts here */
+ #upcoming-match{
+   
+ }
+ #match-blog{
+   
+ }
+ #flags-main{
+   
+ }
+ .flag-container{
+    
+.flag-img{
+   
+}
+.garmany{
+
+}
+.garmany img{
+   
+}
+.versus{
+    
+}
+.france{
+
+}
+.france img{
+   
+.blogs-info{
+    
+ .match-date{
+   
+ }
+.view-all{
+ 
+}
+
+ /* styles for upcoming match ends here */
+  /* footer styles starts here */
+ footer{
+     
+ }
+ .footer-goal{
+   
+  footer hr{
+    
+  .footer-links{
+    /* margin-bottom: 130px; */
+  }
+ .footer-links a{
+   
+ }
+ .footer-icons{
+  
+    
+ }
+ .footer-icons a{
+    
+ }
+ .view-all{
+ 
+ }
+ .view-all button{
+  
+ }
+    }
+}
