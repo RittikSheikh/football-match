@@ -194,41 +194,39 @@ header{
 
  /* styles for upcoming match ends here */
   /* footer styles starts here */
- footer{
-     text-align: center;
-     background-color: black;
-     color: white;
-     height: 444px;
-     padding: 130px 0;
- }
- .footer-goal{
-    font-size: 40px;
-    font-weight: 600;
-    -top: 130px;
-  }
-  footer hr{
-    margin: 50px 140px;
-  }
-  .footer-links{
-    /* margin-bottom: 130px; */
-  }
- .footer-links a{
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 500;
-    margin-right: 60px;
-    color: white;
- }
- .footer-icons{
-    margin-top: 100px;
-    
- }
- .footer-icons a{
-    text-decoration: none;
-    margin-right: 50px;
-    font-size: 35px;
-    color: white;
- }
+  footer{
+   text-align: center;
+   background-color: black;
+   color: white;
+   padding: 130px 0;
+}
+.footer-goal{
+  font-size: 40px;
+  font-weight: 600;
+  -top: 130px;
+}
+footer hr{
+  margin: 50px 140px;
+}
+.footer-links{
+  /* margin-bottom: 130px; */
+}
+.footer-links a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 60px;
+  color: white;
+}
+.footer-icons{
+ margin-top: 100px;
+}
+.footer-icons a{
+  text-decoration: none;
+  margin-right: 50px;
+  font-size: 35px;
+  color: white;
+}
  .view-all{
    margin-bottom: 20px;
  }
@@ -288,7 +286,7 @@ header{
    /* menu styles starts  */
    #main-blogs{
       flex-direction: column;
-      margin-bottom: 0;
+      margin-bottom: 30px;
    }
    .all-cards{
       flex-direction: column;
@@ -328,3 +326,26 @@ header{
       }
 }
 /* for mobile */
+
+/* medium devices midea query */
+@media only screen and (min-width: 670px) and (max-width: 991.98px) {
+   .header-des{
+      width: 316px;
+      margin-top: 60px;
+      margin-left: 76px;
+      margin-bottom: 61px;
+   }
+   .header-title{
+      width: 289px;
+      margin-bottom: 20px;
+      line-height: 50px;
+   }
+   .header-title h1{
+      font-size: 40px;
+   }
+   .header-banner{
+      width: 323px;
+      margin-top: 49px;
+      margin-right: 79px;
+   }
+}
